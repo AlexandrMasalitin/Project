@@ -45,6 +45,28 @@ nav{
 .topnav .icon{
   display: none;
 }
+.mw-100{
+  max-width: 100%;
+}
+.advantages__container{
+  display: flex;
+  justify-content: center;
+}
+.advantages{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.advantages__item{
+  width: 30%;
+}
+
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -74,5 +96,15 @@ nav{
     display: block;
     text-align: left;
   }
-
+  .advantages__item{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .advantages {
+    flex-direction: column;
+  }
+  .advantages__item {
+    width: 100%;
+  }
 }
