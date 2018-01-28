@@ -64,6 +64,29 @@ nav{
 .advantages__item{
   width: 30%;
 }
+footer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+footer a{
+  color: black;
+  font-size: 14px;
+  margin-left: 10px;
+}
+footer nav a:hover{
+  border-bottom: 2px solid black;
+}
+.social img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.social img:hover{
+  background: #494949;
+  border-radius: 50%;
+}
 
 
 
